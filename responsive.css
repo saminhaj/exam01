@@ -252,6 +252,10 @@
     /* .about-left h2 {
         font-size: 33px;
     } */
+    .popular-box h4 {
+        font-size: 23px;
+        font-weight: 700;
+    }
     .question-left h2 {
         margin-bottom: 15px;
         font-size: 29px;
@@ -459,7 +463,8 @@
         top: 0;
         left: 139px;
         padding: 26px;
-        background-color: #ddd;
+        box-shadow: 1px 1px 15px #ddd;
+        background-color: #fff;
         width: 650px !important;
         padding-top: 0px;
         padding-bottom: 0;
@@ -1103,6 +1108,17 @@
     .footer-bottom-social {
         top: 38px;
     }
+    .about-inner-left {
+        width: 100%;
+        float: inherit;
+    }
+    .about-inner-left img {
+        width: 115px;
+    }
+    .about-inner-right {
+        width: 100%;
+        float: inherit;
+    }
 }
 @media (max-width:450px){
     .about-right {
@@ -1160,6 +1176,10 @@
     .about-box-left span {
         font-size: 16px;
     }
+    .about-left p {
+        color: #606060;
+        font-size: 13px;
+    }
     .about-box-right p {
         font-size: 14px;
         padding-top: 4px;
@@ -1174,6 +1194,7 @@
     .news-right-contented {
         padding: 17px;
     }
+
    
 }
 @media (max-width:350px){
